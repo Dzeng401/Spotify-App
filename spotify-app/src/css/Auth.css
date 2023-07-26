@@ -1,0 +1,30 @@
+.signup-username {
+    height: 40px;
+    width: 60%;
+    margin-bottom: 20px;
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signup-password {
+    height: 40px;
+    width: 60%;
+    margin-bottom: 40px;
+    display: block;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.auth-title {
+    margin-top: 40px;
+}
+
+.login-button {
+    width: 30%;
+    height: 40px;
+    border-radius: 10px;
+    background-color:aquamarine;
+}

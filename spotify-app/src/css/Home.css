@@ -1,0 +1,16 @@
+.home-body {
+    height: calc(100vh - 80px);
+    width: 100vw;
+    background-color:rgb(38, 17, 172);
+    display: flex;
+}
+
+.refresh-button { 
+    height: 70px;
+    font-size: 30px;
+}
+
+.artist-blurb {
+    font-size: 150px;
+    width: 10%;
+}
