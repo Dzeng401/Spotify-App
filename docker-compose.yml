@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  backend:
+    build: ./spotify-backend
+    image: spotify-backend-image
+    ports:
+      - "8080:8080"
+    container_name: backend-spotify
+  
+  frontend:
+    build: ./spotify-app
+    image: spotify-frontend-image
+    ports:
+      - "3000:3000"
+    container_name: spotify-frontend
+    depends_on:
+      - backend
